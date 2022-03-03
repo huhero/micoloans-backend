@@ -28,7 +28,8 @@ model_loans.Base.metadata.create_all(bind=engine)
 origins = [
     "http://localhost",
     "http://localhost:8080",
-    "https://micoloans.netlify.app"
+    "https://micoloans.netlify.app",
+    "https://micoloans.herokuapp.com"
 ]
 
 
